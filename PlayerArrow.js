@@ -42,7 +42,7 @@ this.trajectory.push(position);
         for (var i = 0; i < this.trajectory.length; i++) {
           fill("white");
 //Create a dot image using ellipse()
-ellipse(this.position.x, this.position.y, 5);
+ellipse(this.position.x, this.position.y, 5, 5);
 
 }
     
